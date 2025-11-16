@@ -1,0 +1,7 @@
+project_id          = "your-gcp-project-id"
+region              = "us-central1"
+billing_table       = "your-project.billing_dataset.gcp_billing_export_v1_*"
+cost_threshold      = 100
+notification_email  = "alerts@example.com"
+schedule_timezone   = "America/New_York"
+schedule_cron       = "0 2 * * *"
