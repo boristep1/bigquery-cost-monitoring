@@ -4,16 +4,7 @@ Automated solution for monitoring daily BigQuery costs using Cloud Run, Cloud Sc
 
 ## Architecture
 
-Cloud Scheduler (Daily Trigger)
-↓
-Cloud Run Function
-↓
-BigQuery Billing Export → Calculate Daily Cost
-↓
-Cloud Monitoring Custom Metric
-↓
-Alert Policy → Notifications
-
+![Schema]( assets/architecture.png)
 
 ## Features
 
